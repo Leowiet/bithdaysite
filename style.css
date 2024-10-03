@@ -1,0 +1,107 @@
+body{
+    align-items: center;
+    
+        font-family: "Happy Monkey", system-ui;
+        font-weight: 400;
+        font-style: normal;
+        background:linear-gradient(rgb(45, 152, 213), pink);
+        color: rgb(255, 255, 255);
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        flex-direction: column;
+    
+      
+}
+
+#my-fav-wife{
+    width: 150px;
+    border: 6px solid #EFB0C9;
+    border-radius: 50%;
+}
+
+.Head{
+    display: block;
+    text-align: center;
+    text-shadow: 0 0 1px black;
+}
+
+.Head p{
+    font-weight: 800px;
+}
+
+span{
+    background-color: pink;
+    padding: 5px 8px;
+    border-radius: 8px;
+}
+
+.Head2{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    flex-direction: column;
+}
+
+
+
+.Head2 h4{
+    margin-top: 0px;
+    
+}
+
+.giftphoto1{
+
+    background: linear-gradient(blue, pink);
+    height: 400px;
+    width: 400px;
+    background-size: cover;
+   /* background-image: url(gift1.jpg); */
+
+}
+
+
+
+.giftphoto1{
+    width: 400px;
+    border: 5px solid rgb(204, 54, 9);
+    border-radius: 10px;
+}
+
+.giftphoto1 :hover{
+    background-image: url(hapi.webp);
+}
+
+
+.Head3{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.giftphoto2{
+    background-image: url(gift1.jpg);
+    width: 400px;
+    border: 5px solid rgb(204, 54, 9);
+    border-radius: 10px;
+    height: 200px;
+    background-size: cover;
+}
+
+.Footer{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-style: italic
+}
+.botm{
+    margin-top: 0;
+}
+
+a {
+   
+    color: white;
+}
+
